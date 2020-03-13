@@ -35,6 +35,7 @@ services:
     - ./dspace-jspui/src/main/webapp/home.jsp:/dspace/webapps/home.jsp/
     - ./dspace-api/src/main/resources/Messages.properties:/dspace/resources/Messages.properties/
     - ./dspace/config/:/dspace/config/
+    - ./dspace/config/dspace.cfg/:/dspace/config/dspace.cfg
     - assetstore:/dspace/assetstore
     - solr_authority:/dspace/solr/authority/data
     - solr_oai:/dspace/solr/oai/data
