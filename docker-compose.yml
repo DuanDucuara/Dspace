@@ -31,6 +31,7 @@ services:
     - ./dspace-xmlui/src/main/webapp/themes/Kubrick/lib/css/style.css:/dspace/webapps/xmlui/themes/Kubrick/lib/css/style.css
     - ./dspace-jspui/src/main/webapp/layout/:/dspace/webapps/jspui/layout/
     - ./dspace-jspui/src/main/webapp/static/css/bootstrap/:/dspace/webapps/jspui/static/css/bootstrap/
+    - ./dspace/config/dspace.cfg/:/dspace/config/dspace.cfg
     - assetstore:/dspace/assetstore
     - solr_authority:/dspace/solr/authority/data
     - solr_oai:/dspace/solr/oai/data
