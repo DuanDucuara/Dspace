@@ -128,31 +128,22 @@
     }
 %>
 </header>
-
-<main id="content" role="main">
-<div class="container banner">
-    <div class="row">
-        <div class="col-md-9 brand">
-            <h1><fmt:message key="jsp.layout.header-default.brand.heading" /></h1>
-            <fmt:message key="jsp.layout.header-default.brand.description" /> 
-        </div>
-        <div class="col-md-3"><img class="pull-right" src="<%= request.getContextPath() %>/image/logo.gif" alt="DSpace logo" />
-        </div>
-    </div>
-</div>
 <br/>
-                <%-- Location bar --%>
+<br/>
+<br/>
+<main id="content" role="main">
+
+   <%-- Filter bar --%>
 <%
     if (locbar)
     {
 %>
-<div class="container">
+
     <dspace:include page="/layout/location-bar.jsp" />
-</div>                
+
 <%
     }
 %>
-
 
         <%-- Page contents --%>
 <div class="container">

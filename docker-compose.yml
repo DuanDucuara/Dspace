@@ -31,6 +31,10 @@ services:
     - ./dspace-xmlui/src/main/webapp/themes/Kubrick/lib/css/style.css:/dspace/webapps/xmlui/themes/Kubrick/lib/css/style.css
     - ./dspace-jspui/src/main/webapp/layout/:/dspace/webapps/jspui/layout/
     - ./dspace-jspui/src/main/webapp/static/css/bootstrap/:/dspace/webapps/jspui/static/css/bootstrap/
+    - ./dspace-jspui/src/main/webapp/image/:/dspace/webapps/jspui/image/
+    - ./dspace-jspui/src/main/webapp/home.jsp:/dspace/webapps/home.jsp/
+    - ./dspace-api/src/main/resources/Messages.properties:/dspace/resources/Messages.properties/
+    - ./dspace/config/:/dspace/config/
     - assetstore:/dspace/assetstore
     - solr_authority:/dspace/solr/authority/data
     - solr_oai:/dspace/solr/oai/data
