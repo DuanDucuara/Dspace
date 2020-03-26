@@ -73,7 +73,7 @@
 
 <dspace:layout locbar="nolink" titlekey="jsp.home.title" feedData="<%= feedData %>">
 
-	<div>
+	<div class="jumbotron">
         <%= topNews %>
 	</div>
 
