@@ -11,7 +11,7 @@
 }
 
 .panel-default  .panel-heading{
-	height: 130px;
+	height: 200px;
 	margin: 10px
 }
 
@@ -86,4 +86,79 @@
 .panel-heading {
     text-align: center;
     font-size: 18px;
+}
+
+.navbar-inverse {
+    background-image: none;
+    background-color: #e5e5e5;
+    border-color: white;
+}
+
+#content {
+    margin-top: 100px;
+}
+
+.nav-second {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.dropdown .dropdown-toggle {
+    font-size: 18px;
+}
+.nav-green {
+    display: flex;
+    width: 100%;
+    align-items: center; 
+    background-color: #72C74D;
+    color: white;
+
+}
+
+.item-green {
+    margin: 0 20px;
+}
+
+.breadcrumb, .btn-success {
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+.glyphicon {
+    color: white;
+}
+
+.item-green li a {
+    color: white;
+}
+
+
+ li a {
+    color: black;
+}
+
+ul, ol   {
+    margin: 0;
+}
+
+.caret {
+        border-top: 4px solid #ffffff;
+}
+
+li {
+    font-size: 13px
+}
+
+.list-group-item-heading {
+    color: black;
+}
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu li a {
+    color: black;
 }
